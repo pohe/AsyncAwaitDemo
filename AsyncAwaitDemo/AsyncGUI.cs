@@ -17,7 +17,7 @@ namespace AsyncAwaitDemo
         public async void HandleButtonClickAsync()
         {
             Console.WriteLine("Started HandleButtonClickAsync");
-            
+
 
             await AsyncBackEnd.DoTaskA_Async();
             Console.WriteLine("Ended  DoTaskAUpdated");
@@ -30,7 +30,7 @@ namespace AsyncAwaitDemo
             //Task<int> t = AsyncBackEnd.DoTaskC_Async();
             //await t;
             //int result = t.Result;
-            
+
             //Alternativt
 
             int result = await AsyncBackEnd.DoTaskC_Async();

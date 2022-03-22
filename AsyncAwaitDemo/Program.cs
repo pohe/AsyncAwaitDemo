@@ -25,7 +25,7 @@ namespace AsyncAwaitDemo
 
             int sleep = 1000;
             Thread.Sleep(sleep);
-
+            Console.ReadLine();
             Console.WriteLine("Hello World!");
         }
     }
