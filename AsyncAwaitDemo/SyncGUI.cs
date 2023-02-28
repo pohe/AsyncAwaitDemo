@@ -15,6 +15,7 @@ namespace AsyncAwaitDemo
         }
         public void HandleButtonClick()
         {
+            Console.WriteLine("Start of HandleButtonClick");
             SyncBackend.DoTaskA();
             SyncBackend.DoTaskB();
             int result = SyncBackend.DoTaskC();
